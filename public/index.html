@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <!-- link to bootstrap library -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+
+    <!-- css and icon links -->
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">  
+    <link rel="icon" type="image/png" sizes="32x32" href="public/images/favicon-32x32.png">
+
+    <!-- Font awesome --> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+    <title>Frontend Mentor | Milos Mirkovic</title>
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <!-- jquery and script file links -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="public/js/script.js"></script>
+
+  </head>
+
+  <body>
+    <div id="toggleContainer" class="container-fluid">
+
+      <header>
+        <div class="row">
+          <div class="col-9">
+            <h1>Social Media Dashboard</h1>
+            <p>Total Followers: 23,004</p>
+          </div>
+          <div class="col-3">
+            <div id="toggleDiv">
+              <label id="toggleText">Dark mode</label>
+              <label class="switch">
+                <input type="checkbox" id="inputToggle" class="unchecked" aria-label="toggle-button">
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div id="largeTables">
+
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body facebook social-media">
+                  <h6 class="card-title"><i class="fab fa-facebook-square"></i> @nathanf</h6>
+                  <p class="card-text large-number">1987</p>
+                  <p class="card-text">followers</p>
+                  <p class="card-text positive">12 Today</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body twitter social-media">
+                  <h6 class="card-title"><i class="fab fa-twitter"></i> @nathanf</h6>
+                  <p class="card-text large-number">1044</p>
+                  <p class="card-text">followers</p>
+                  <p class="card-text positive">99 Today</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body instagram social-media">
+                  <h6 class="card-title"><i class="fab fa-instagram"></i> @realnathanf</h6>
+                  <p class="card-text large-number">11k</p>
+                  <p class="card-text">followers</p>
+                  <p class="card-text positive">1099 Today</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body youtube social-media">
+                  <h6 class="card-title"><i class="fab fa-youtube"></i> Nathan F.</h6>
+                  <p class="card-text large-number">8239</p>
+                  <p class="card-text">followers</p>
+                  <p class="card-text negative">144 Today</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="smallTables">
+          <h2>Overview - Today</h2>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body social-media">
+                  <div class="row">
+                  <div class="col-8">
+                    <p class="text">Page Views</p>
+                    <p class="medium-number">87</p>
+                  </div>
+                  <div class="col-4">
+                    <p class="logo"><i class="fab fa-facebook-square fb-icon"></i></p>
+                    <p class="positive-percent">3%</p>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body social-media">
+                  <div class="row">
+                    <div class="col-8">
+                      <p class="text">Likes</p>
+                      <p class="medium-number">52</p>
+                    </div>
+                    <div class="col-4">
+                      <p class="logo"><i class="fab fa-facebook-square fb-icon"></i></p>
+                      <p class="negative-percent">2%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body social-media">
+                  <div class="row">
+                    <div class="col-8">
+                      <p class="text">Likes</p>
+                      <p class="medium-number">5462</p>
+                    </div>
+                    <div class="col-4">
+                      <p class="logo"><i class="fab fa-instagram"></i></p>
+                      <p class="positive-percent">2257%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body social-media">
+                  <div class="row">
+                    <div class="col-8">
+                      <p class="text">Profile Views</p>
+                      <p class="medium-number">52k</p>
+                    </div>
+                    <div class="col-4">
+                      <p class="logo"><i class="fab fa-instagram"></i></p>
+                      <p class="positive-percent">1375%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body social-media">
+                  <div class="row">
+                    <div class="col-8">
+                      <p class="text">Retweets</p>
+                      <p class="medium-number">117</p>
+                    </div>
+                    <div class="col-4">
+                      <p class="logo"><i class="fab fa-twitter"></i></p>
+                      <p class="positive-percent">303%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body social-media">
+                  <div class="row">
+                    <div class="col-8">
+                      <p class="text">Likes</p>
+                      <p class="medium-number">507</p>
+                    </div>
+                    <div class="col-4">
+                      <p class="logo"><i class="fab fa-twitter"></i></p>
+                      <p class="positive-percent">553%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body social-media">
+                  <div class="row">
+                    <div class="col-8">
+                      <p class="text">Likes</p>
+                      <p class="medium-number">107</p>
+                    </div>
+                    <div class="col-4">
+                      <p class="logo"><i class="fab fa-youtube"></i></p>
+                      <p class="negative-percent">19%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 view">
+                <div class="card-body social-media">
+                  <div class="row">
+                    <div class="col-8">
+                      <p class="text">Total Views</p>
+                      <p class="medium-number">1407</p>
+                    </div>
+                    <div class="col-4">
+                      <p class="logo"><i class="fab fa-youtube"></i></p>
+                      <p class="negative-percent">12%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </main> 
+
+
+      <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/skozmi" target="_blank">Milos Mirkovic</a>.
+      </footer>
+
+    </div>
+
+    <!-- sript files for bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
